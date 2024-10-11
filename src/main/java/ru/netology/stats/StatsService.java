@@ -6,7 +6,7 @@ public class StatsService {
         for (long sale : sales) {
             SumOfSales += sale;
         }
-        return SumOfSales; // сумма продаж за год
+        return SumOfSales; // сумма продаж за год/
     }
 
     public long calculateAverageSale(long[] sales) {
@@ -43,6 +43,7 @@ public class StatsService {
         }
         return counterBelowAverage;
     }
+
     public int calculateMonthsAboveAverage(long[] sales) {
         int counterAboveAverage = 0;
         long averageSale = calculateAverageSale(sales);

@@ -44,6 +44,7 @@ class StatsServiceTest {
 
         Assertions.assertEquals(expended, actual);
     }
+
     @Test
     public void testMonthsBelowAverage() {
         StatsService service = new StatsService();
@@ -53,6 +54,7 @@ class StatsServiceTest {
 
         Assertions.assertEquals(expended, actual);
     }
+//
     @Test
     public void testMonthsAboveAverage() {
         StatsService service = new StatsService();
